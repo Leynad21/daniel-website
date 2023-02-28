@@ -1,13 +1,167 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+    --color-bg: #FBFACD;
+    --color-bg-variant: #FFFDFA;
+    --color-title: crimson;
+    --color-primary: crimson;
+    --color-primary-variant: rgba(77, 181, 255, 0.4);
+    --color-primary-light: rgba(220, 20, 60, 0.6);
+    --color-contrast-primary: #00CED1;
+    --color-light: rgba(255, 255, 255, 0.6);
+
+    --transition: all 400ms ease;
+
+    --container-width-lg: 75%;
+    --container-width-md: 86%;
+    --container-width-sm: 90%;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: var(--color-bg);
+    color: var(--color-white);
+    line-height: 1.7;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+/* ============ GENERAL STYLES ============ */
+
+.container {
+    width: var(--container-width-lg);
+    margin: 0 auto;
+}
+
+.app {
+    display: flex;
+    flex-flow: column nowrap;
+    min-height: 100vh;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-weight: 500;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+section {
+    height: 100vh;
+}
+
+.section-title {
+    font-size: 4rem;
+    font-weight: 300;
+    color: black;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    text-align: center;
+    padding-top: 1.5rem;
+}
+
+.section-title span {
+    color: crimson;
+}
+
+a {
+    color: var(--color-primary);
+    transition: var(--transition);
+}
+
+a:hover {
+    color: var(--color-bg-variant)
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 30px;
+    color: crimson;
+    background-color: transparent;
+    border: 2px solid crimson;
+    border-radius: 1rem;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    margin-top: 2rem;
+    transition: 350ms ease;
+}
+
+.btn:hover {
+    color: white;
+    background-color: crimson;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background: var(--color-primary);
+    color: var(--color-bg);
+}
+
+.btn-primary:hover {
+    color: crimson;
+    background-color: transparent;
+}
+
+/* img 
+    display: block;
+    width: 100%;
+    object-fit: cover;
+ */
+
+
+
+/* ============ MEDIA QUERIES (MEDIUM DEVICES) ============ */
+
+@media screen and (max-width: 1024px) {
+    .container {
+        width: var(--container-width-md);
+    }
+
+}
+
+
+/* ============ MEDIA QUERIES (SMALL DEVICES) ============ */
+
+@media screen and (max-width: 600px) {
+    .container {
+        width: var(--container-width-sm);
+    }
+
+    section>h2 {
+        margin-bottom: 2rem;
+    }
+
+    .section-title {
+        font-size: 3rem;
+    }
 }

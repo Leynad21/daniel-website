@@ -1,0 +1,119 @@
+#navbar {
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: auto;
+}
+
+
+.navbar__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 4rem;
+    padding: 0 10px;
+    background-color: rgba(31, 30, 30, 0.4);
+    transition: 500ms ease background-color;
+}
+
+.navbar__logo {
+    height: 100%;
+    cursor: pointer;
+}
+
+.navbar__logo img {
+    width: 100%;
+    height: 100%;
+    padding-left: 1rem;
+    transform: scale(1.1);
+    transition: 500ms ease;
+}
+
+.navbar__logo img:hover {
+    width: 100%;
+    height: 100%;
+    padding-left: 1rem;
+    transform: scale(1.15);
+}
+
+.navbar__list {
+    float: right;
+}
+
+.navbar__list a {
+    font-size: 2rem;
+    padding: 1.6rem;
+}
+
+.navbar__list a:hover {
+    font-size: 2.1rem;
+    padding: 1.6rem;
+}
+
+.nav-btn {
+    padding: 5px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1.8rem;
+    color: var(--color-primary);
+    visibility: hidden;
+    opacity: 0;
+}
+
+
+
+/* ============ MEDIA QUERIES  ============ */
+
+/* TABLET */
+
+@media only screen and (max-width: 1024px) {
+    .nav-btn {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    .navbar__list {
+        position: fixed;
+        top: 0;
+        right: 0;
+        height: 100%;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1.5rem;
+        background-color: rgba(31, 30, 30, 0.4);
+        transition: 1000ms;
+        transform: translateY(-100vh);
+    }
+
+    .responsive-nav {
+        transform: none;
+    }
+
+    .nav-close-btn {
+        position: absolute;
+        top: 1rem;
+        right: 2rem;
+        transition: 500ms;
+    }
+
+    .nav-close-btn:hover {
+        transform: scale(1.1);
+    }
+
+    .hide-element {
+        visibility: hidden;
+        opacity: 0;
+    }
+}
+
+
+
+
+/* SMARTPHONE */

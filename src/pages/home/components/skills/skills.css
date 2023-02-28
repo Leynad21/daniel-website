@@ -1,0 +1,109 @@
+#skills {
+    background-color: #FFFAFA;
+    height: fit-content;
+}
+
+.skills__container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap: 4rem;
+}
+
+.skills__container>div {
+    background-color: var(--color-bg-variant);
+    padding: 2.4rem 5rem;
+    border-radius: 2rem;
+    border: 1px solid var(--color-contrast-primary);
+    transition: var(--transition);
+}
+
+.skills__container>div:hover {
+    background: transparent;
+    border-color: var(--color-primary);
+    cursor: default;
+}
+
+.skills__container>div:hover h3 {
+    color: var(--color-contrast-primary);
+    transition: var(--transition);
+}
+
+.skills__container>div h3 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: var(--color-primary);
+    font-size: 2rem;
+}
+
+.skills__container>div h4 {
+    font-size: 1.3rem;
+}
+
+.skills__content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 2rem;
+}
+
+.skills__details {
+    display: flex;
+    gap: 1rem;
+    padding: 0.5rem;
+}
+
+.skills__details-icon {
+    margin-top: 6px;
+    color: var(--color-primary);
+}
+
+.skills__container>div:hover .skills__details-icon {
+    color: var(--color-contrast-primary);
+    transition: var(--transition);
+}
+
+
+
+/* ============ MEDIA QUERIES (MEDIUM DEVICES) ============ */
+
+@media screen and (max-width: 1024px) {
+    .skills__container {
+        grid-template-columns: 1fr;
+    }
+
+    .skills__container>div {
+        width: 80%;
+        padding: 2rem;
+        margin: 0 auto;
+    }
+
+    .skills__content {
+        padding: 1rem;
+    }
+
+}
+
+
+/* ============ MEDIA QUERIES (SMALL DEVICES) ============ */
+
+@media screen and (max-width: 600px) {
+
+    .skills__container {
+        grid-template-columns: 1fr;
+    }
+
+    .skills__container>div {
+        width: 100%;
+        padding: 2rem 1rem;
+    }
+
+    .skills__container>div h3 {
+        font-size: 1.7rem;
+    }
+
+    .skills__container>div h4 {
+        font-size: 1.1rem;
+    }
+
+
+
+}

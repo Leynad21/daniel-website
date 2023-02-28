@@ -1,0 +1,124 @@
+#contact h2 {
+    font-size: 1.5rem;
+}
+
+.contact__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: left;
+    gap: 0.5rem;
+}
+
+form {
+    display: flex;
+    width: 30rem;
+    font-size: 2rem;
+    flex-direction: column;
+    gap: 0.5rem;
+    position: relative;
+}
+
+input,
+textarea {
+    width: 100%;
+    font-size: 1.2rem;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    border: 2px solid black;
+    resize: none;
+    background: var(--color-bg-variant);
+}
+
+.btn-form {
+    font-size: 1.3rem;
+    padding: 1rem;
+    color: white;
+    margin-top: 0.5rem;
+    margin-right: auto;
+}
+
+.contact__image {
+    justify-self: center;
+    width: 400px;
+    height: 460px;
+    border-radius: 2rem;
+    overflow: hidden;
+    transition: 700ms ease;
+}
+
+.contact__image:hover {
+    overflow: visible;
+    border-radius: 50rem;
+    transform: translateY(-150px);
+    box-shadow: -15px 10px 15px rgba(0, 0, 0, 0.3);
+}
+
+.contact__image img {
+    width: 100%;
+    transition: var(--transition);
+}
+
+.contact__image img:hover {
+    border-radius: 1rem;
+    width: 120%;
+    box-shadow: -15px 10px 15px rgba(0, 0, 0, 0.3);
+}
+
+
+/* ============ MEDIA QUERIES  ============ */
+
+
+/* TABLET */
+
+@media only screen and (max-width: 1024px) {
+
+    #contact {
+        height: fit-content;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+
+    }
+
+    #contact h2 {
+        margin-top: 2rem;
+    }
+
+    .contact__container {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        gap: 4rem;
+    }
+}
+
+
+
+/* SMARTPHONE */
+
+
+@media screen and (max-width: 600px) {
+    form {
+        width: 18rem;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contact__image {
+        width: 280px;
+        margin-bottom: -5rem;
+    }
+
+    .btn-form {
+        margin-right: 0;
+    }
+
+    .contact__form {
+        text-align: center;
+        align-items: center;
+    }
+
+
+}
