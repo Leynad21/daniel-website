@@ -6,7 +6,6 @@ import Navbar from "../../components/shared/navbar/Navbar"
 
 const ProjectPage = () => {
 
-    const navigate = { useNavigate }
     const { projectId } = useParams()
 
     // get project

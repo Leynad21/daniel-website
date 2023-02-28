@@ -3,7 +3,6 @@ import "./navbar.css"
 import logoImg from "../../../assets/images/logo_1-nobg.png"
 import { FaBars, FaTimes } from 'react-icons/fa'
 import { HashLink } from 'react-router-hash-link';
-import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     const NavRef = useRef()

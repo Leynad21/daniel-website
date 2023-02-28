@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import "./portfolio.css"
 import { ProjectsData } from "./ProjectsData"
 import ProjectCard from './ProjectCard'
-import { Link } from 'react-router-dom'
 
 const Portfolio = () => {
 
