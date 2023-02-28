@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/daniel-website/static/css/main.aef5a773.css",
+    "main.js": "/daniel-website/static/js/main.04022bf3.js",
+    "static/js/787.bbe01249.chunk.js": "/daniel-website/static/js/787.bbe01249.chunk.js",
+    "static/media/Dany-fato-perfil_2.jpg": "/daniel-website/static/media/Dany-fato-perfil_2.b084f0de3a03304ef2c4.jpg",
+    "static/media/Dany-fato-escadas.jpg": "/daniel-website/static/media/Dany-fato-escadas.0c5501be43b4bf481a97.jpg",
+    "static/media/profile1.jpg": "/daniel-website/static/media/profile1.172fed4792dea80ac780.jpg",
+    "static/media/hero-book.jpg": "/daniel-website/static/media/hero-book.2c8470485c223b605685.jpg",
+    "static/media/logo_1-nobg.png": "/daniel-website/static/media/logo_1-nobg.44a5f2c9d73972d8a8d8.png",
+    "index.html": "/daniel-website/index.html",
+    "main.aef5a773.css.map": "/daniel-website/static/css/main.aef5a773.css.map",
+    "main.04022bf3.js.map": "/daniel-website/static/js/main.04022bf3.js.map",
+    "787.bbe01249.chunk.js.map": "/daniel-website/static/js/787.bbe01249.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aef5a773.css",
+    "static/js/main.04022bf3.js"
+  ]
+}
