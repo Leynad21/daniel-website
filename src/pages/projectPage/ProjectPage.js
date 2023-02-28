@@ -1,7 +1,7 @@
 import "./projectPage.css"
 import React from 'react'
 import { ProjectsData } from "../home/components/portfolio/ProjectsData"
-import { useParams, useNavigate } from "react-router-dom"
+import { useParams } from "react-router-dom"
 import Navbar from "../../components/shared/navbar/Navbar"
 
 const ProjectPage = () => {
