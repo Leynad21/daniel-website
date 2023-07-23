@@ -20,18 +20,6 @@ const Skills = () => {
                         <article className='skills__details'>
                             <BsPatchCheckFill className='skills__details-icon' />
                             <div>
-                                <h4>HTML</h4>
-                            </div>
-                        </article>
-                        <article className='skills__details'>
-                            <BsPatchCheckFill className='skills__details-icon' />
-                            <div>
-                                <h4>CSS</h4>
-                            </div>
-                        </article>
-                        <article className='skills__details'>
-                            <BsPatchCheckFill className='skills__details-icon' />
-                            <div>
                                 <h4>JavaScript</h4>
                             </div>
                         </article>
@@ -39,6 +27,18 @@ const Skills = () => {
                             <BsPatchCheckFill className='skills__details-icon' />
                             <div>
                                 <h4>SQL</h4>
+                            </div>
+                        </article>
+                        <article className='skills__details'>
+                            <BsPatchCheckFill className='skills__details-icon' />
+                            <div>
+                                <h4>HTML</h4>
+                            </div>
+                        </article>
+                        <article className='skills__details'>
+                            <BsPatchCheckFill className='skills__details-icon' />
+                            <div>
+                                <h4>CSS</h4>
                             </div>
                         </article>
                     </div>
@@ -56,7 +56,19 @@ const Skills = () => {
                         <article className='skills__details'>
                             <BsPatchCheckFill className='skills__details-icon' />
                             <div>
-                                <h4>Django</h4>
+                                <h4>Django & DRF</h4>
+                            </div>
+                        </article>
+                        <article className='skills__details'>
+                            <BsPatchCheckFill className='skills__details-icon' />
+                            <div>
+                                <h4>Tailwind</h4>
+                            </div>
+                        </article>
+                        <article className='skills__details'>
+                            <BsPatchCheckFill className='skills__details-icon' />
+                            <div>
+                                <h4>Redux</h4>
                             </div>
                         </article>
                         <article className='skills__details'>
@@ -75,6 +87,12 @@ const Skills = () => {
                             <BsPatchCheckFill className='skills__details-icon' />
                             <div>
                                 <h4>Matplotlib</h4>
+                            </div>
+                        </article>
+                        <article className='skills__details'>
+                            <BsPatchCheckFill className='skills__details-icon' />
+                            <div>
+                                <h4>Seaborn</h4>
                             </div>
                         </article>
                     </div>

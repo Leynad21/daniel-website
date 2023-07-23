@@ -110,6 +110,12 @@ const TimelineList = () => {
                                 title={timelineData[22].title}
                                 description={timelineData[22].description}
                                 iconUrl={timelineData[22].iconUrl}
+                            />
+                            <TimelineCard
+                                date={timelineData[23].date}
+                                title={timelineData[23].title}
+                                description={timelineData[23].description}
+                                iconUrl={timelineData[23].iconUrl}
                                 bifurcationStart={"end-line"}
                             />
                         </Fade>

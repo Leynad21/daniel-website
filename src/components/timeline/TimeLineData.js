@@ -27,7 +27,7 @@ export const timelineData = [
     {
         date: "Fev 18",
         title: "Gap Semester - The discovery of Europe",
-        description: "Embarked on a journey of exploration around Europe, first with a friend on the road and later solo via rail. This allowed me to immerse myself in new cultures, while facing unexpected challenges, and turned me more flexible and resilient. These skillss have left a lasting impact on my character and were a breakthourgh for my future views.",
+        description: "Embarked on a journey of exploration around Europe, first with a friend on the road and later solo via rail. This allowed me to immerse myself in new cultures, while facing unexpected challenges, and turned me more flexible and resilient. These skills have left a lasting impact on my character and were a breakthourgh for my future views.",
         iconUrl: "./daniel-website/icons/travelling.png"
     },
     {
@@ -111,13 +111,13 @@ export const timelineData = [
     {
         date: "Jun 22",
         title: "End of The Complete Python Pro Bootcamp course",
-        description: "In May, I completed the Python 100 days of code course from Angela Yu in my free time. This was certainly one of the best educational investments I have made. During the course, I delved deeper into OOP and advanced Python concepts and learned how to make GUIs, games, automation apps with APIs, perform web scraping, and even basic web development with flask",
+        description: "In May, I completed the Python 100 days of code course from Angela Yu in my spare time. This was certainly one of the best educational investments I have made. During the course, I delved deeper into OOP and advanced Python concepts and learned how to make GUIs, games, automation apps with APIs, perform web scraping, and even basic web development with flask",
         iconUrl: "./daniel-website/icons/web-programming.png"
     },
     {
         date: "Jul 22",
         title: "Started to learn Web Development",
-        description: "After experienced the limitations of the software I was using at work, I decided to learn web development to improve the infrastructure and create something useful. I enrolled in Angela Yu's Web Development course, where I learned HTML, CSS, JavaScript, and briefly touched on React",
+        description: "After having experienced the limitations of the software I was using at work, I decided to learn web development to improve the infrastructure and create something useful. I enrolled in Angela Yu's Web Development course, where I learned HTML, CSS, JavaScript, and briefly touched on React",
         iconUrl: "./daniel-website/icons/web-programming.png"
     },
     {
@@ -134,8 +134,14 @@ export const timelineData = [
     },
     {
         date: "Feb 23",
-        title: "A new journey",
+        title: "A New Journey",
         description: "On February 1st, 2023, I boarded a plane bound for Asia with the goal of fully dedicating myself to my programming studies. I set out on this journey in order to immerse myself wholeheartedly in this field and focus my attention solely on it, with the intention of learning as much as possible in the shortest amount of time.",
         iconUrl: "./daniel-website/icons/travelling.png"
+    },
+    {
+        date: "Jun 23",
+        title: "Full Stack Development",
+        description: "In the last few months, I have honed my programming skills by taking various courses and working on several projects. My primary area of focus was Web Development, with an emphasis on using Django for the backend and React for frontend development. Along the way, I also familiarized myself with several useful libraries and frameworks, which Tailwind CSS proved to be exceptionally valuable.",
+        iconUrl: "./daniel-website/icons/web-programming.png"
     },
 ];

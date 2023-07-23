@@ -14,9 +14,12 @@ const About = () => {
                 </div>
                 <div className="col-right">
                     <h1 className="section-title"> About <span>Me</span></h1>
-                    <p>With a natural aptitude for quick learning and a strong passion for the financial market, I have made it a priority to
-                        continually broaden my knowledge across a variety of fields. More recently, I have taken a
-                        deep interest in the fields of programming, data science, web development, and AI, and have swiftly cultivated a versatile skill set in these domains.
+                    <p>
+                        With a natural aptitude for quick learning, I have made it a priority to continually broaden
+                        my knowledge across a variety of fields. I worked in the Finance Industry as Discretionary
+                        Portfolio Manager and Financial analyst for 3 years. In the past years, I also have developed a strong
+                        interest in computer science, with a primary focus on web development and data science. Through dedicated
+                        efforts, I have rapidly acquired a versatile skill set, demonstrating notable proficiency, particularly in web development.
                     </p>
                     <Link to="/timeline" className="btn">Check Timeline</Link>
                 </div>
