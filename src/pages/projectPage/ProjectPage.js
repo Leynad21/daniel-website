@@ -12,8 +12,6 @@ const ProjectPage = () => {
 
     const singleProject = ProjectsData.find(project => project.id === parseInt(projectId))
 
-    console.log("project:", singleProject);
-
 
     return (
         <>
@@ -22,7 +20,7 @@ const ProjectPage = () => {
                 style={{
                     backgroundSize: "cover",
                     backgroundImage: `url("${singleProject.projectUrl}")`,
-                    backgroundPosition: "center center"
+                    backgroundPosition: "center"
                 }}>
 
                 <div className="banner__fadeBottom" />
@@ -35,12 +33,20 @@ const ProjectPage = () => {
                     {singleProject.description}
                 </h1>
             </div>
-            {
-                singleProject.gitHubUrl &&
-                <div className="banner__btn">
-                    <a href={singleProject.gitHubUrl}>GitHub</a>
-                </div>
-            }
+            <div className="banner__btnContainer">
+                {
+                    singleProject.gitHubUrl &&
+                    <div className="banner__btn">
+                        <a href={singleProject.gitHubUrl} target="_blank">GitHub</a>
+                    </div>
+                }
+                {
+                    singleProject.website &&
+                    <div className="banner__btnVariant" target="_blank">
+                        <a href={singleProject.website} target="_blank">Website</a>
+                    </div>
+                }
+            </div>
         </>
     )
 }
